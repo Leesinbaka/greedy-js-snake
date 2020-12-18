@@ -1,3 +1,25 @@
-h2 {
+/* h2 {
     color: aqua;
+} */
+
+.bound {
+    height: 500px;
+    width: 500px;
+    border: 3px solid;
+}
+.block {
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    position: relative;
+    animation-name:moving;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes moving {
+    0% {background-color: blue; left:0px; top:0px;}
+    25%  {background-color: red; left:450px; top:0px;}
+    50%  {background-color: green; left:450px; top:450px;}
+    75%  {background-color: yellow; left:0px; top:450px;}
+    100%  {background-color: rgb(0, 0, 8); left:0px; top:0px;}
 }
