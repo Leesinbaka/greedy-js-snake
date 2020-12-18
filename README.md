@@ -1,9 +1,9 @@
 # greedy-js-snake
 
-+ trying to make greedy snake
-+ 0-- think the design path
-+ 1-- launch local node.js first
-+ 2-- simple html layout
-+ 3-- testing css color block moving
-+ 4-- css using js function parameter to move
-+ 5-- update after finish first 5 step :3
+## trying to make greedy snake
+1 think the design path
+2 launch local node.js first
+3 simple html layout
+4 testing css color block moving
+5 css using js function parameter to move
+6 update after finish first 5 step :3
