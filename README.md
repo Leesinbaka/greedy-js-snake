@@ -11,12 +11,12 @@
 5. - [ ] css using js function parameter to move
 6. - [ ] update after finish first 5 step :3
 7. - [ ] game logic thinking :O  
-    >$$
-    >\left(\begin{array}{cc} 
-    >0 & 0 & 0 & 0 & 0\\  
-    >0 & 0 & 0 & 0 & 0\\  
-    >0 & 0 & 0 & 0 & 0\\  
-    >0 & 1 & 1 & 0 & 0\\  
-    >0 & 0 & 0 & 0 & 0\\  
-    >\end{array}\right)  
-    >$$
+    > $$
+    > \left(\begin{array}{cc} 
+    > 0 & 0 & 0 & 0 & 0\\  
+    > 0 & 0 & 0 & 0 & 0\\  
+    > 0 & 0 & 0 & 0 & 0\\  
+    > 0 & 1 & 1 & 0 & 0\\  
+    > 0 & 0 & 0 & 0 & 0\\  
+    > \end{array}\right)  
+    > $$
