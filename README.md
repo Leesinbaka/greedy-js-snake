@@ -4,9 +4,9 @@
 1. - [x] think the design path
 2. - [x] launch local node.js first
 3. - [x] simple html layout
-4. - [] ~~testing css color block moving~~ [^1]
+4. - [ ] ~~testing css color block moving~~ [^1]
 
-[^1] : 18-12-2020諗到
+[^1]: 18-12-2020諗到
     > not the best way to design like that.  
     > use javascript canvas would be better.  
 4. using javascript canvas
