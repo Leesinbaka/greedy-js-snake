@@ -1,10 +1,10 @@
 # BasicAnimation  
 ### HTML
 ```html  
-    <body onload="draw();  ">  
+    <body onload="draw();">  
     <canvas id="canvas" width="510" height="510">
 ```  
-### js
+### Javascript
 ```javascript
 function draw(){  
     var ctx = document.getElementById('canvas').getContext('2d');    
