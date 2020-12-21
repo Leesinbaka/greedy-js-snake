@@ -1,6 +1,6 @@
 # greedy-js-snake
 
-## trying to make greedy snake
+## trying to make greedy snake :snake:
 1. - [x] think the design path
 2. - [x] launch local node.js first
 3. - [x] simple html layout
