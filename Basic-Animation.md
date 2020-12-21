@@ -3,9 +3,8 @@
     > <body onload="draw();  ">  
     > <canvas id="canvas" width="510" height="510"> */}  
 ### js
-'''javascript
+```javascript
 function draw(){  
-    
     var ctx = document.getElementById('canvas').getContext('2d');    
 
     ctx.clearRect(0,0,510,510);    
@@ -26,4 +25,4 @@ function draw(){
     ctx.restore();  
     window.requestAnimationFrame(draw);  
 }
-'''
+```
