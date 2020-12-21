@@ -1,7 +1,9 @@
 # BasicAnimation  
-### HTML  
-    > <body onload="draw();  ">  
-    > <canvas id="canvas" width="510" height="510"> */}  
+### HTML
+```html  
+    <body onload="draw();  ">  
+    <canvas id="canvas" width="510" height="510">
+```  
 ### js
 ```javascript
 function draw(){  
