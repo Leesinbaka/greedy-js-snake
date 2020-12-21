@@ -1,7 +1,9 @@
-{/* HTML  
-    <body onload="draw();  ">  
-    <canvas id="canvas" width="510" height="510"> */}  
-
+# BasicAnimation  
+### HTML  
+    > <body onload="draw();  ">  
+    > <canvas id="canvas" width="510" height="510"> */}  
+### js
+'''javascript
 function draw(){  
     
     var ctx = document.getElementById('canvas').getContext('2d');    
@@ -24,3 +26,4 @@ function draw(){
     ctx.restore();  
     window.requestAnimationFrame(draw);  
 }
+'''
