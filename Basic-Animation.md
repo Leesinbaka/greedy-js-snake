@@ -28,11 +28,22 @@ function draw(){
     block.draw();  
     
     //bound map
-    ctx.beginPath();  
-    ctx.lineWidth = "2";  
-    ctx.strokeStyle = "black";  
-    ctx.rect(5, 5, 500, 500);  
-    ctx.stroke();  
+    var boundmap = {
+        lineWidth : "2",
+        strokeStyle : "green",
+        x : 5,
+        y : 5,
+        width : 500,
+        height : 500,
+        draw : function(){
+            ctx.beginPath();
+            ctx.lineWidth = this.lineWidth;
+            ctx.strokeStyle = this.strokeStyle;
+            ctx.rect(this.x,this.y,this.width,this.height);
+            ctx.stroke();
+        }
+    };
+    boundmap.draw();
     
     ctx.restore();  
     window.requestAnimationFrame(draw);  
