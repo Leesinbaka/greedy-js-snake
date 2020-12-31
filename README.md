@@ -10,7 +10,7 @@
 4. - [x] using javascript canvas
     > used javascript rect made first animation :+1: <sup>[Basic-Animation](https://github.com/Leesinbaka/greedy-js-snake/blob/main/Basic-Animation.md) 21/12/2020done!</sup>
 5. - [x] using js function parameter to move
-    > finally solved cant move problem :+1: <sup>[Basic-Move-Block](https://github.com/Leesinbaka/greedy-js-snake/blob/main/Basic-Anime-With-AddEventistener.md) 31/12/2020done!</sup>
+    > finally solved cant move problem :+1: <sup>[Basic-Move-Block](https://github.com/Leesinbaka/greedy-js-snake/blob/main/Basic-Anime-With-AddEventListener.md) 31/12/2020done!</sup>
 6. - [ ] move one direction at single time <sup>31/12/2020</sup>
 7. - [ ] game logic thinking :O  
 ```
