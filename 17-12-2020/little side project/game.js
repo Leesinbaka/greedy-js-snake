@@ -13,16 +13,16 @@ function draw(){
     document.getElementById('keypressed').innerHTML = e.key;
     switch(e.key){
         case 'w':
-            deltay -=2 ;
+            deltay =-2 ;
             break;
         case 's':
-            deltay +=2 ;
+            deltay =2 ;
             break;
         case 'a':
-            deltax -=2 ;
+            deltax =-2 ;
             break;
         case 'd':
-            deltax +=2 ;
+            deltax =2 ;
             break;
     }
     
@@ -33,7 +33,7 @@ function draw(){
     ctx.clearRect(0,0,cas.height,cas.width);  
     ctx.beginPath();
     ctx.fillStyle = 'red';
-    ctx.fillRect(blockx + deltax,blocky + deltay,20,20);
+    ctx.fillRect(blockx += deltax,blocky += deltay,20,20);
     ctx.closePath();
 }
 block();
