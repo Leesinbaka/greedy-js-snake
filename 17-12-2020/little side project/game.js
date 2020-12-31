@@ -1,30 +1,16 @@
-{/* HTML  
-    <body onload="draw();  ">  
-    <canvas id="canvas" width="510" height="510"> */}  
+function draw(){  
+    var cas = document.getElementById('canvas');   
+    var ctx = cas.getContext('2d');
+    ctx.clearRect(0,0,510,510);    
 
-function draw(){
-    
-    var ctx = document.getElementById('canvas').getContext('2d');
-
-    ctx.clearRect(0,0,510,510);
-
-    //block
-    ctx.save();
-    var time = new Date();
-    var block = {
-        x : time.getSeconds()*3,
-        y : time.getSeconds()*3,
-        height : 20,
-        width : 20,
-        color : 'red',
-        draw : function(){
-            ctx.fillStyle = this.color;
-            ctx.fillRect(this.x, this.y, this.width, this.height);
-        }   
-    };
-    block.draw();
+    //block  
+    function movingblock(){
+        var width = 20
+        var height = 20
+        window.addeventlistener(),
+        draw : function(){}
+    }
     //bound map
-
     var boundmap = {
         lineWidth : "2",
         strokeStyle : "green",
@@ -41,12 +27,6 @@ function draw(){
         }
     };
     boundmap.draw();
-    // ctx.beginPath();
-    // ctx.lineWidth = "1";
-    // ctx.strokeStyle = "black";
-    // ctx.rect(5, 5, 500, 500);
-    // ctx.stroke();
     
-    ctx.restore();
-    window.requestAnimationFrame(draw);
+    window.requestAnimationFrame(draw);  
 }
