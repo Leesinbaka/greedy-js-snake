@@ -6,24 +6,28 @@ var directstatus = 0;
 function draw(){  
     var cas = document.getElementById('canvas');   
     var ctx = cas.getContext('2d');
-    ctx.clearRect(0,0,510,510);    
+    ctx.clearRect(0,0,cas.height,cas.width);    
 
     //block  
    
    window.addEventListener('keydown',function movement(e){
-    document.getElementById('keypressed').innerHTML = e.key;
+    document.getElementById('keypressed').innerHTML = "key" + e.key;
     switch(e.key){
         case 'w':
-            deltay =-2 ;
+            deltay = -2;
+            deltax = 0;
             break;
         case 's':
-            deltay =2 ;
+            deltay = 2;
+            deltax = 0;
             break;
         case 'a':
-            deltax =-2 ;
+            deltax = -2;
+            deltay = 0;
             break;
         case 'd':
-            deltax =2 ;
+            deltax = 2;
+            deltay = 0;
             break;
     }
     
@@ -31,10 +35,13 @@ function draw(){
 
    });
    function block(){
+    var xcheck = blockx += deltax;
+    var ycheck = blocky += deltay;
     ctx.clearRect(0,0,cas.height,cas.width);  
     ctx.beginPath();
     ctx.fillStyle = 'red';
-    ctx.fillRect(blockx += deltax,blocky += deltay,20,20);
+    document.getElementById('position').innerHTML = "x:" + xcheck + "y:" + ycheck;
+    ctx.fillRect(xcheck,ycheck,20,20);
     ctx.closePath();
 }
 block();
