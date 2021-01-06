@@ -14,19 +14,19 @@ function draw(){
     document.getElementById('keypressed').innerHTML = "key" + e.key;
     switch(e.key){
         case 'w':
-            deltay = -2;
+            deltay = -5;
             deltax = 0;
             break;
         case 's':
-            deltay = 2;
+            deltay = 5;
             deltax = 0;
             break;
         case 'a':
-            deltax = -2;
+            deltax = -5;
             deltay = 0;
             break;
         case 'd':
-            deltax = 2;
+            deltax = 5;
             deltay = 0;
             break;
     }
@@ -35,14 +35,15 @@ function draw(){
 
    });
    function block(){
-    var xcheck = blockx += deltax;
-    var ycheck = blocky += deltay;
-    ctx.clearRect(0,0,cas.height,cas.width);  
-    ctx.beginPath();
-    ctx.fillStyle = 'red';
-    document.getElementById('position').innerHTML = "x:" + xcheck + "y:" + ycheck;
-    ctx.fillRect(xcheck,ycheck,20,20);
-    ctx.closePath();
+        var xcheck = blockx += deltax;
+        var ycheck = blocky += deltay;
+        ctx.clearRect(0,0,cas.height,cas.width);  
+        ctx.beginPath();
+        ctx.fillStyle = 'red';
+        document.getElementById('position').innerHTML = "x:" + xcheck + "y:" + ycheck;
+        ctx.fillRect(xcheck,ycheck,20,20);
+        ctx.closePath();
+    
 }
 block();
     //bound map
