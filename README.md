@@ -12,7 +12,8 @@
 5. - [x] using js function parameter to move
     > finally solved cant move problem :+1: <sup>[Basic-Move-Block](https://github.com/Leesinbaka/greedy-js-snake/blob/main/Basic-Anime-With-AddEventListener.md) 31/12/2020done!</sup>
 6. - [x] move one direction at single time <sup>31/12/2020</sup>
-7. - [ ] ~~the fps calculate :( :slightly_smiling_face:~~ <sup>6/1/2021 found out no good :(</sup>    
+7. - [ ] ~~the fps calculate :( :slightly_smiling_face:~~ <sup>6/1/2021 found out no good :(</sup>  
+8. - [ ] review and manage some variable  
 20. - [ ] game logic thinking :O  
 ```
         [0 0 0 0 0]  
