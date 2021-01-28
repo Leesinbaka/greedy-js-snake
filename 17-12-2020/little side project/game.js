@@ -1,5 +1,5 @@
-var blockx = 250;
-var blocky = 250;
+var blockx = 250;//block start at 250x
+var blocky = 250;//block start at 250y
 var deltax = 0;
 var deltay = 0;
 var directstatus = 0;
