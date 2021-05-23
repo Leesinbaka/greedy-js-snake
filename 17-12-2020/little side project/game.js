@@ -2,7 +2,8 @@ var blockx = 250;
 var blocky = 250;
 var deltax = 0;
 var deltay = 0;
-var directstatus = 0;
+var Xdirectstatus = 0;
+var Ydirectstatus = 0;
 function draw(){  
     var cas = document.getElementById('canvas');   
     var ctx = cas.getContext('2d');
@@ -16,24 +17,33 @@ function draw(){
         case 'w':
             deltay = -5;
             deltax = 0;
+            Ydirectstatus = -1;
+            Xdirectstatus = 0;
             break;
         case 's':
             deltay = 5;
             deltax = 0;
+            Ydirectstatus = 1;
+            Xdirectstatus = 0;
             break;
         case 'a':
             deltax = -5;
             deltay = 0;
+            Xdirectstatus = -1;
+            Ydirectstatus = 0;
             break;
         case 'd':
             deltax = 5;
             deltay = 0;
+            Xdirectstatus = 1;
+            Ydirectstatus = 0;
             break;
     }
     
     
 
    });
+
    function block(){
         var xcheck = blockx += deltax;
         var ycheck = blocky += deltay;
@@ -43,7 +53,17 @@ function draw(){
         document.getElementById('position').innerHTML = "x:" + xcheck + "y:" + ycheck;
         ctx.fillRect(xcheck,ycheck,20,20);
         ctx.closePath();
-    
+
+        ctx.beginPath();
+        ctx.fillStyle = 'blue';
+        ctx.fillRect(xcheck - 20*Xdirectstatus,ycheck - 20*Ydirectstatus,20,20);
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.fillStyle = 'green';
+        ctx.fillRect(xcheck - 40*Xdirectstatus,ycheck - 40*Ydirectstatus,20,20);
+        ctx.closePath();
+
 }
 block();
     //bound map
