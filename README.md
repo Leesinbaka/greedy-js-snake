@@ -14,8 +14,8 @@
 6. - [x] move one direction at single time <sup>31/12/2020</sup>
 7. - [ ] ~~the fps calculate :( :slightly_smiling_face:~~ <sup>6/1/2021 found out no good :(</sup> 
 8. - [ ] block :eggplant: next :eggplant: door
-9. - [x] deside to not using this method to create game<sup>25/5/2021 and petty sad after breaking up with my gf</sup>   
-10. - [x]start to make are new one refence by this link [simple-greedy-snake](https://www.programmersought.com/article/75374205120/)  
+9. - [x] deside to not using this method to create game<sup>25/5/2021 and petty sad after breaking up with my gf</sup>
+10. - [x]start to make are new one refence by this link [simple-greedy-snake](https://www.programmersought.com/article/75374205120/)
 11. - [ ]And make him not that simple i think :3    
 20. - [ ] game logic thinking :O  
 ```
